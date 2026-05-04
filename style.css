@@ -1,0 +1,42 @@
+
+body {
+  margin:0;
+  font-family: 'Segoe UI', sans-serif;
+  background:#0f172a;
+  color:#e2e8f0;
+}
+header {
+  padding:20px;
+  text-align:center;
+  background:linear-gradient(90deg,#0f172a,#1e293b);
+}
+nav a {
+  margin:0 15px;
+  color:#38bdf8;
+  text-decoration:none;
+}
+.hero {
+  padding:80px 20px;
+  text-align:center;
+}
+.hero h1 {
+  font-size:48px;
+}
+.section {
+  padding:50px 20px;
+}
+.card {
+  background:#1e293b;
+  padding:20px;
+  margin:20px 0;
+  border-radius:12px;
+  transition:0.3s;
+}
+.card:hover {
+  transform:translateY(-5px);
+}
+footer {
+  text-align:center;
+  padding:20px;
+  background:#020617;
+}
